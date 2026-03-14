@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>t.one1 — Professional Development Services</title>
+    <meta name="description"
+        content="t.one1 — Professional web development, game servers, e-commerce, and custom programming services.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Tajawal:wght@300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>t.one1<span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero" data-en="Home" data-ar="الرئيسية">Home</a></li>
+                <li><a href="#services" data-en="Services" data-ar="الخدمات">Services</a></li>
+                <li><a href="#skills" data-en="Skills" data-ar="المهارات">Skills</a></li>
+                <li><a href="#payment" data-en="Payment" data-ar="الدفع">Payment</a></li>
+                <li><a href="#contact" data-en="Contact" data-ar="تواصل">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="lang-toggle" id="langToggle" title="Switch Language">
+                    <span class="lang-text">AR</span>
+                    <div class="lang-icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M2 12h20" />
+                            <path
+                                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                        </svg>
+                    </div>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="hero-orb hero-orb-1"></div>
+            <div class="hero-orb hero-orb-2"></div>
+            <div class="hero-orb hero-orb-3"></div>
+            <div class="hero-grid"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge anim-fade" data-en="Full-Stack Developer" data-ar="مطوّر متكامل">Full-Stack Developer
+            </div>
+            <h1 class="hero-title anim-fade">
+                <span data-en="Hi, I'm" data-ar="مرحباً، أنا">Hi, I'm</span>
+                <span class="hero-name">t.one1</span>
+            </h1>
+            <p class="hero-desc anim-fade"
+                data-en="I build stunning websites, game platforms, e-commerce stores, and custom software solutions that bring your ideas to life."
+                data-ar="أبني مواقع ويب مذهلة، منصات ألعاب، متاجر إلكترونية، وحلول برمجية مخصصة تحوّل أفكارك إلى واقع.">
+                I build stunning websites, game platforms, e-commerce stores, and custom software solutions that bring
+                your ideas to life.</p>
+            <div class="hero-buttons anim-fade">
+                <a href="#services" class="btn btn-primary" data-en="View Services" data-ar="عرض الخدمات">View
+                    Services</a>
+                <a href="#contact" class="btn btn-outline" data-en="Get in Touch" data-ar="تواصل معي">Get in Touch</a>
+            </div>
+            <div class="hero-stats anim-fade">
+                <div class="stat">
+                    <span class="stat-number" data-count="50">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label" data-en="Projects" data-ar="مشروع">Projects</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-count="5">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label" data-en="Languages" data-ar="لغة برمجة">Languages</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-count="100">0</span><span class="stat-plus">%</span>
+                    <span class="stat-label" data-en="Satisfaction" data-ar="رضا العملاء">Satisfaction</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-dot"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header anim-fade">
+                <span class="section-tag" data-en="What I Offer" data-ar="ما أقدّمه">What I Offer</span>
+                <h2 class="section-title" data-en="My Services" data-ar="خدماتي">My Services</h2>
+                <p class="section-desc" data-en="Professional solutions tailored to your needs"
+                    data-ar="حلول احترافية مصمّمة حسب احتياجاتك">Professional solutions tailored to your needs</p>
+            </div>
+            <div class="services-grid">
+
+                <div class="service-card anim-fade">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path
+                                d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+                        </svg>
+                    </div>
+                    <div class="service-number">01</div>
+                    <h3 class="service-title" data-en="Wiki Websites" data-ar="مواقع ويكي">Wiki Websites</h3>
+                    <p class="service-desc"
+                        data-en="Comprehensive knowledge bases and wiki platforms with organized content management and intuitive navigation systems."
+                        data-ar="قواعد معرفة شاملة ومنصات ويكي مع إدارة محتوى منظمة وأنظمة تنقّل سهلة الاستخدام.">
+                        Comprehensive knowledge bases and wiki platforms with organized content management and intuitive
+                        navigation systems.</p>
+                    <div class="service-tags">
+                        <span>Documentation</span>
+                        <span>CMS</span>
+                        <span>Search</span>
+                    </div>
+                </div>
+
+                <div class="service-card anim-fade">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path
+                                d="M14.25 6.087c0-.355.186-.676.401-.959.221-.29.349-.634.349-1.003 0-1.036-1.007-1.875-2.25-1.875s-2.25.84-2.25 1.875c0 .369.128.713.349 1.003.215.283.401.604.401.959v0a.64.64 0 0 1-.657.643 48.39 48.39 0 0 1-4.163-.3c.186 1.613.293 3.25.315 4.907a.656.656 0 0 1-.658.663v0c-.355 0-.676-.186-.959-.401a1.647 1.647 0 0 0-1.003-.349c-1.036 0-1.875 1.007-1.875 2.25s.84 2.25 1.875 2.25c.369 0 .713-.128 1.003-.349.283-.215.604-.401.959-.401v0c.31 0 .555.26.532.57a48.039 48.039 0 0 1-.642 5.056c1.518.19 3.058.309 4.616.354a.64.64 0 0 0 .657-.643v0c0-.355-.186-.676-.401-.959a1.647 1.647 0 0 1-.349-1.003c0-1.035 1.008-1.875 2.25-1.875 1.243 0 2.25.84 2.25 1.875 0 .369-.128.713-.349 1.003-.215.283-.4.604-.4.959v0c0 .333.277.599.61.58a48.1 48.1 0 0 0 5.427-.63 48.05 48.05 0 0 0 .582-4.717.532.532 0 0 0-.533-.57v0c-.355 0-.676.186-.959.401-.29.221-.634.349-1.003.349-1.035 0-1.875-1.007-1.875-2.25s.84-2.25 1.875-2.25c.37 0 .713.128 1.003.349.283.215.604.401.959.401v0a.656.656 0 0 0 .659-.663 47.703 47.703 0 0 0-.31-4.82 47.872 47.872 0 0 1-4.163.3.64.64 0 0 1-.657-.643v0Z" />
+                        </svg>
+                    </div>
+                    <div class="service-number">02</div>
+                    <h3 class="service-title" data-en="Game Servers & Maps" data-ar="سيرفرات وألعاب">Game Servers & Maps
+                    </h3>
+                    <p class="service-desc"
+                        data-en="Custom game server websites with real-time updates, map codes, leaderboards, and community features for gamers."
+                        data-ar="مواقع سيرفرات ألعاب مخصّصة مع تحديثات فورية، أكواد المابات، لوحات المتصدرين، وميزات المجتمع.">
+                        Custom game server websites with real-time updates, map codes, leaderboards, and community
+                        features for gamers.</p>
+                    <div class="service-tags">
+                        <span>Servers</span>
+                        <span>Maps</span>
+                        <span>Updates</span>
+                    </div>
+                </div>
+
+                <div class="service-card anim-fade">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path
+                                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                        </svg>
+                    </div>
+                    <div class="service-number">03</div>
+                    <h3 class="service-title" data-en="E-Commerce Stores" data-ar="متاجر إلكترونية">E-Commerce Stores
+                    </h3>
+                    <p class="service-desc"
+                        data-en="Full-featured online stores with product management, shopping carts, secure checkout, and modern responsive design."
+                        data-ar="متاجر إلكترونية متكاملة مع إدارة المنتجات، سلة التسوق، دفع آمن، وتصميم عصري متجاوب.">
+                        Full-featured online stores with product management, shopping carts, secure checkout, and modern
+                        responsive design.</p>
+                    <div class="service-tags">
+                        <span>Store</span>
+                        <span>Payments</span>
+                        <span>Products</span>
+                    </div>
+                </div>
+
+                <div class="service-card anim-fade">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path
+                                d="M10.5 6h9.75M10.5 6a1.5 1.5 0 1 1-3 0m3 0a1.5 1.5 0 1 0-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-9.75 0h9.75" />
+                        </svg>
+                    </div>
+                    <div class="service-number">04</div>
+                    <h3 class="service-title" data-en="Control Panel Systems" data-ar="لوحة تحكم متكاملة">Control Panel
+                        Systems</h3>
+                    <p class="service-desc"
+                        data-en="Powerful admin dashboards with easy content management, multi-currency payments support including Robux & Roblox integration."
+                        data-ar="لوحات تحكم قوية مع إدارة محتوى سهلة، دعم عملات متعددة شاملة Robux و Roblox.">Powerful
+                        admin dashboards with easy content management, multi-currency payments support including Robux &
+                        Roblox integration.</p>
+                    <div class="service-tags">
+                        <span>Dashboard</span>
+                        <span>Robux</span>
+                        <span>Multi-Currency</span>
+                    </div>
+                </div>
+
+                <div class="service-card anim-fade">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path
+                                d="M11.42 15.17L17.25 21A2.652 2.652 0 0 0 21 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 1 1-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 0 0 4.486-6.336l-3.276 3.277a3.004 3.004 0 0 1-2.25-2.25l3.276-3.276a4.5 4.5 0 0 0-6.336 4.486c.049.58.025 1.193-.14 1.743" />
+                        </svg>
+                    </div>
+                    <div class="service-number">05</div>
+                    <h3 class="service-title" data-en="Code Optimization" data-ar="تحسين الأكواد">Code Optimization</h3>
+                    <p class="service-desc"
+                        data-en="Performance optimization, code refactoring, bug fixing, and improving code quality for existing projects with best practices."
+                        data-ar="تحسين الأداء، إعادة هيكلة الأكواد، إصلاح الأخطاء، وتحسين جودة الأكواد للمشاريع القائمة بأفضل الممارسات.">
+                        Performance optimization, code refactoring, bug fixing, and improving code quality for existing
+                        projects with best practices.</p>
+                    <div class="service-tags">
+                        <span>Refactoring</span>
+                        <span>Performance</span>
+                        <span>Bug Fixing</span>
+                    </div>
+                </div>
+
+                <div class="service-card anim-fade">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path
+                                d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 0 1-.825-.242m9.345-8.334a2.126 2.126 0 0 0-.476-.095 48.64 48.64 0 0 0-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0 0 11.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
+                        </svg>
+                    </div>
+                    <div class="service-number">06</div>
+                    <h3 class="service-title" data-en="Technical Consultation" data-ar="استشارات تقنية">Technical
+                        Consultation</h3>
+                    <p class="service-desc"
+                        data-en="Expert technical advice on architecture, technology stack selection, project planning, and development strategies for your business."
+                        data-ar="استشارات تقنية متخصصة في الهندسة المعمارية، اختيار التقنيات، تخطيط المشاريع، واستراتيجيات التطوير لعملك.">
+                        Expert technical advice on architecture, technology stack selection, project planning, and
+                        development strategies for your business.</p>
+                    <div class="service-tags">
+                        <span>Architecture</span>
+                        <span>Planning</span>
+                        <span>Strategy</span>
+                    </div>
+                </div>
+
+                <div class="service-card service-card-wide anim-fade">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
+                        </svg>
+                    </div>
+                    <div class="service-number">07</div>
+                    <h3 class="service-title" data-en="Custom Programming Projects" data-ar="مشاريع برمجة مخصّصة">Custom
+                        Programming Projects</h3>
+                    <p class="service-desc"
+                        data-en="Bespoke software solutions built with modern technologies and clean code architecture."
+                        data-ar="حلول برمجية مخصّصة مبنية بتقنيات حديثة وهيكلة أكواد نظيفة.">Bespoke software solutions
+                        built with modern technologies and clean code architecture.</p>
+                    <div class="service-langs">
+                        <div class="lang-pill"><span class="lang-dot" style="--dot-color:#3776AB"></span>Python</div>
+                        <div class="lang-pill"><span class="lang-dot" style="--dot-color:#264de4"></span>CSS</div>
+                        <div class="lang-pill"><span class="lang-dot" style="--dot-color:#f89820"></span>Java</div>
+                        <div class="lang-pill"><span class="lang-dot" style="--dot-color:#e34c26"></span>HTML</div>
+                        <div class="lang-pill"><span class="lang-dot" style="--dot-color:#777BB4"></span>PHP</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header anim-fade">
+                <span class="section-tag" data-en="Tech Stack" data-ar="التقنيات">Tech Stack</span>
+                <h2 class="section-title" data-en="Skills & Technologies" data-ar="المهارات والتقنيات">Skills &
+                    Technologies</h2>
+            </div>
+            <div class="skills-orbit anim-fade">
+                <div class="orbit-center">
+                    <span class="logo-bracket">&lt;</span>t.one1<span class="logo-bracket">/&gt;</span>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-item" style="--skill-color:#e34c26">
+                        <div class="skill-icon-wrap"><span>HTML</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-width="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" style="--skill-color:#264de4">
+                        <div class="skill-icon-wrap"><span>CSS</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" style="--skill-color:#f7df1e">
+                        <div class="skill-icon-wrap"><span>JavaScript</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" style="--skill-color:#3776AB">
+                        <div class="skill-icon-wrap"><span>Python</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-width="88"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" style="--skill-color:#f89820">
+                        <div class="skill-icon-wrap"><span>Java</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" style="--skill-color:#777BB4">
+                        <div class="skill-icon-wrap"><span>PHP</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-width="82"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="payment" id="payment">
+        <div class="container">
+            <div class="section-header anim-fade">
+                <span class="section-tag" data-en="Payment Methods" data-ar="طرق الدفع">Payment Methods</span>
+                <h2 class="section-title" data-en="How to Pay" data-ar="كيف تدفع">How to Pay</h2>
+                <p class="section-desc" data-en="Multiple secure payment options to suit your preference"
+                    data-ar="خيارات دفع آمنة متعددة تناسب تفضيلاتك">Multiple secure payment options to suit your
+                    preference</p>
+            </div>
+            <div class="payment-grid anim-fade">
+                <div class="payment-card">
+                    <div class="payment-icon payment-paypal">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M7.076 21.337H2.47a.641.641 0 0 1-.633-.74L4.944.901C5.026.382 5.474 0 5.998 0h7.46c2.57 0 4.578.543 5.69 1.81 1.01 1.15 1.304 2.42 1.012 4.287-.023.143-.047.288-.077.437-.983 5.05-4.349 6.797-8.647 6.797h-2.19c-.524 0-.968.382-1.05.9l-1.12 7.106zm14.146-14.42a3.35 3.35 0 0 0-.607-.541c-.013.076-.026.175-.041.254-.93 4.778-4.005 7.201-9.138 7.201h-2.19a.563.563 0 0 0-.556.479l-1.187 7.527h-.506l-.24 1.516a.56.56 0 0 0 .554.647h3.882c.46 0 .85-.334.922-.788.06-.26.76-4.852.816-5.09a.932.932 0 0 1 .923-.788h.58c3.76 0 6.705-1.528 7.565-5.946.36-1.847.174-3.388-.777-4.471z" />
+                        </svg>
+                    </div>
+                    <h3 class="payment-title" data-en="PayPal" data-ar="باي بال">PayPal</h3>
+                    <p class="payment-desc" data-en="Secure international payments" data-ar="مدفوعات دولية آمنة">Secure
+                        international payments</p>
+                </div>
+                <div class="payment-card">
+                    <div class="payment-icon payment-bank">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path
+                                d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6M3.75 9v.75A2.25 2.25 0 0 0 6 12h12a2.25 2.25 0 0 0 2.25-2.25V9M3 21h18M12 3v2.25" />
+                        </svg>
+                    </div>
+                    <h3 class="payment-title" data-en="Bank Transfer" data-ar="تحويل بنكي">Bank Transfer</h3>
+                    <p class="payment-desc" data-en="Direct bank wire transfer" data-ar="تحويل بنكي مباشر">Direct bank
+                        wire transfer</p>
+                </div>
+                <div class="payment-card">
+                    <div class="payment-icon payment-wallet">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path
+                                d="M21 12a2.25 2.25 0 0 0-2.25-2.25H15a3 3 0 1 1-6 0H5.25A2.25 2.25 0 0 0 3 12m18 0v6a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 18v-6m18 0V9M3 12V9m18 0a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 9m18 0V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v3" />
+                        </svg>
+                    </div>
+                    <h3 class="payment-title" data-en="E-Wallets" data-ar="محافظ إلكترونية">E-Wallets</h3>
+                    <p class="payment-desc" data-en="Digital wallet payments" data-ar="الدفع عبر المحافظ الرقمية">
+                        Digital wallet payments</p>
+                </div>
+                <div class="payment-card payment-robux">
+                    <div class="payment-icon payment-icon-robux">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M3.5 1L1 3.5L8.5 11L1 18.5L3.5 21L11 13.5L18.5 21L21 18.5L13.5 11L21 3.5L18.5 1L11 8.5L3.5 1Z" />
+                        </svg>
+                    </div>
+                    <h3 class="payment-title" data-en="Robux" data-ar="روبوكس">Robux</h3>
+                    <p class="payment-desc" data-en="For Roblox-related services" data-ar="للخدمات المتعلقة بروبلكس">For
+                        Roblox-related services</p>
+                    <span class="payment-badge" data-en="Roblox Services" data-ar="خدمات روبلكس">Roblox Services</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header anim-fade">
+                <span class="section-tag" data-en="Get in Touch" data-ar="تواصل معي">Get in Touch</span>
+                <h2 class="section-title" data-en="Let's Work Together" data-ar="لنعمل معًا">Let's Work Together</h2>
+                <p class="section-desc"
+                    data-en="Ready to bring your project to life? Reach out through any of these channels."
+                    data-ar="مستعد لتحويل مشروعك إلى واقع؟ تواصل معي عبر أي من هذه القنوات.">Ready to bring your project
+                    to life? Reach out through any of these channels.</p>
+            </div>
+            <div class="contact-cards anim-fade">
+                <a href="https://wa.me/966549196488" target="_blank" rel="noopener"
+                    class="contact-card contact-whatsapp" id="whatsappLink">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z" />
+                        </svg>
+                    </div>
+                    <div class="contact-info">
+                        <span class="contact-label" data-en="WhatsApp" data-ar="واتساب">WhatsApp</span>
+                        <span class="contact-value">0549196488</span>
+                    </div>
+                    <div class="contact-arrow">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg>
+                    </div>
+                </a>
+                <a href="https://t.me/t_one1cy" target="_blank" rel="noopener" class="contact-card contact-telegram"
+                    id="telegramLink">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z" />
+                        </svg>
+                    </div>
+                    <div class="contact-info">
+                        <span class="contact-label" data-en="Telegram" data-ar="تليجرام">Telegram</span>
+                        <span class="contact-value">@t_one1cy</span>
+                    </div>
+                    <div class="contact-arrow">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#hero" class="nav-logo">
+                        <span class="logo-bracket">&lt;</span>t.one1<span class="logo-bracket">/&gt;</span>
+                    </a>
+                    <p data-en="Professional Development Services" data-ar="خدمات تطوير احترافية">Professional
+                        Development Services</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://wa.me/966549196488" target="_blank" rel="noopener" aria-label="WhatsApp">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z" />
+                        </svg>
+                    </a>
+                    <a href="https://t.me/t_one1cy" target="_blank" rel="noopener" aria-label="Telegram">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                            <path
+                                d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p><span data-en="Designed & Built by" data-ar="صُمّم وبُني بواسطة">Designed & Built by</span> <a
+                        href="#hero" class="footer-credit">t.one1</a> &copy; <span id="currentYear"></span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
